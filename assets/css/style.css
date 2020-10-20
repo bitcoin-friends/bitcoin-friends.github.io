@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Jost", sans-serif;
+  font-family: "Chewy", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #preloader:before {
-  content: "";
+  content: ;
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  background-color: #ff9905;
+  background-color: rgba(43, 6, 6, 0.6);
 }
 
 #header.header-scrolled, #header.header-inner-pages {
@@ -387,8 +387,9 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
-  background: #c5c5c5;
+  height: 800px;
+  background-image: url('../img/22long.png');
+  background-size: auto 100%;
 }
 
 #hero .container {
@@ -396,22 +397,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 20px 10px 20px 10px;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #000;
   font-family: "Chewy", sans-serif;
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 50px;
+  color: #000;
+  margin: 20px 10px 20px 10px;
+  font-family: sans-serif;
   font-size: 24px;
 }
 
 #hero .btn-get-started {
-  font-family: "Jost", sans-serif;
+  font-family: sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -434,12 +436,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 8px 40px;
   transition: 0.5s;
   margin: 10px 0 0 25px;
-  color: #fff;
+  color: #000;
   position: relative;
 }
 
 #hero .btn-watch-video i {
-  color: #fff;
+  color: #FF0000;
   font-size: 32px;
   position: absolute;
   left: 0;
@@ -448,7 +450,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-watch-video:hover i {
-  color: #47b2e4;
+  color: #000;
 }
 
 #hero .animated {
@@ -542,7 +544,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 42px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -588,6 +590,14 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.about {
+  height: 900px;
+  background-image: url('../img/GroupPhoto.png');
+  background-size: 60% auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-blend-mode: lighten;
+}
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -621,7 +631,7 @@ section {
 }
 
 .about .content .btn-learn-more {
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -653,6 +663,7 @@ section {
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
+  padding-left: 20px;
   color: #37517e;
 }
 
@@ -695,7 +706,7 @@ section {
 .why-us .accordion-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -774,7 +785,7 @@ section {
   font-weight: 700;
   font-size: 32px;
   color: #37517e;
-  font-family: "Poppins", sans-serif;
+  font-family: "Chewy", sans-serif;
 }
 
 .skills .content ul {
@@ -808,7 +819,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
   color: #37517e;
 }
 
@@ -893,7 +904,7 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: "Jost", sans-serif;
+  font-family: "Chewy", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -944,7 +955,7 @@ section {
   transition: all 0.3s;
   padding: 8px 20px;
   border-radius: 50px;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
@@ -1139,7 +1150,7 @@ section {
   font-size: 48px;
   color: #37517e;
   font-weight: 400;
-  font-family: "Jost", sans-serif;
+  font-family: "Chewy", sans-serif;
   margin-bottom: 25px;
 }
 
@@ -1194,7 +1205,7 @@ section {
   transition: none;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Chewy", sans-serif;
   transition: 0.3s;
   border: 1px solid #47b2e4;
 }
@@ -1264,7 +1275,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1444,7 +1455,7 @@ section {
 }
 
 .contact .php-email-form .loading:before {
-  content: "";
+  content: ;
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -1719,7 +1730,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Jost", sans-serif;
+  font-family: "Chewy", sans-serif;
   color: #5e5e5e;
 }
 
