@@ -1,0 +1,248 @@
+{
+  "src/lib/assets/images/shitcoin.png": {
+    "file": "_app/immutable/assets/shitcoin-39c90e3e.png",
+    "src": "src/lib/assets/images/shitcoin.png"
+  },
+  "src/lib/assets/images/arrow.png": {
+    "file": "_app/immutable/assets/arrow-48fcbeb4.png",
+    "src": "src/lib/assets/images/arrow.png"
+  },
+  "src/lib/assets/images/cut-out-seats.png": {
+    "file": "_app/immutable/assets/cut-out-seats-c774c558.png",
+    "src": "src/lib/assets/images/cut-out-seats.png"
+  },
+  "src/lib/assets/images/first-row-seats.png": {
+    "file": "_app/immutable/assets/first-row-seats-3e5fe446.png",
+    "src": "src/lib/assets/images/first-row-seats.png"
+  },
+  "src/lib/assets/images/bitcoin.png": {
+    "file": "_app/immutable/assets/bitcoin-b6c52774.png",
+    "src": "src/lib/assets/images/bitcoin.png"
+  },
+  "src/lib/assets/images/char.png": {
+    "file": "_app/immutable/assets/char-8f2d4a6c.png",
+    "src": "src/lib/assets/images/char.png"
+  },
+  "src/lib/assets/images/jones.png": {
+    "file": "_app/immutable/assets/jones-47ef0fef.png",
+    "src": "src/lib/assets/images/jones.png"
+  },
+  "src/lib/assets/images/harold.png": {
+    "file": "_app/immutable/assets/harold-60fe7517.png",
+    "src": "src/lib/assets/images/harold.png"
+  },
+  "src/lib/assets/images/theater.png": {
+    "file": "_app/immutable/assets/theater-33c6ceee.png",
+    "src": "src/lib/assets/images/theater.png"
+  },
+  "src/lib/assets/images/seats.png": {
+    "file": "_app/immutable/assets/seats-350a28cc.png",
+    "src": "src/lib/assets/images/seats.png"
+  },
+  "src/lib/assets/images/xenia.png": {
+    "file": "_app/immutable/assets/xenia-2c41e085.png",
+    "src": "src/lib/assets/images/xenia.png"
+  },
+  "src/lib/assets/images/jamus.png": {
+    "file": "_app/immutable/assets/jamus-e90e56e3.png",
+    "src": "src/lib/assets/images/jamus.png"
+  },
+  "src/lib/assets/images/mitalik.png": {
+    "file": "_app/immutable/assets/mitalik-fdd8d354.png",
+    "src": "src/lib/assets/images/mitalik.png"
+  },
+  "src/lib/assets/images/b-hello.png": {
+    "file": "_app/immutable/assets/b-hello-c5190745.png",
+    "src": "src/lib/assets/images/b-hello.png"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout-a79b33d6.css",
+    "src": "src/routes/+layout.css"
+  },
+  "src/routes/ordinals/+page.css": {
+    "file": "_app/immutable/assets/_page-e490de3a.css",
+    "src": "src/routes/ordinals/+page.css"
+  },
+  "Row.css": {
+    "file": "_app/immutable/assets/Row-60614438.css",
+    "src": "Row.css"
+  },
+  "src/routes/+error.css": {
+    "file": "_app/immutable/assets/_error-c88a3739.css",
+    "src": "src/routes/+error.css"
+  },
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page-9caf8780.css",
+    "src": "src/routes/+page.css"
+  },
+  ".svelte-kit/generated/nodes/3.js": {
+    "file": "_app/immutable/chunks/3-94153703.js",
+    "src": ".svelte-kit/generated/nodes/3.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/ordinals/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/0.js": {
+    "file": "_app/immutable/chunks/0-d9060bfa.js",
+    "src": ".svelte-kit/generated/nodes/0.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+layout.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/1.js": {
+    "file": "_app/immutable/chunks/1-bacbb3cf.js",
+    "src": ".svelte-kit/generated/nodes/1.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+error.svelte"
+    ]
+  },
+  "_index-29d28d03.js": {
+    "file": "_app/immutable/chunks/index-29d28d03.js",
+    "imports": [
+      "_index-4dc2d971.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/2.js": {
+    "file": "_app/immutable/chunks/2-e6847dbe.js",
+    "src": ".svelte-kit/generated/nodes/2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+page.svelte"
+    ]
+  },
+  "_Icon-10c06870.js": {
+    "file": "_app/immutable/chunks/Icon-10c06870.js",
+    "imports": [
+      "_index-4dc2d971.js",
+      "_Row-5b400ca3.js"
+    ]
+  },
+  "_index-c7c9934e.js": {
+    "file": "_app/immutable/chunks/index-c7c9934e.js",
+    "imports": [
+      "_index-29d28d03.js",
+      "_index-4dc2d971.js"
+    ]
+  },
+  "_Button-70531b93.js": {
+    "file": "_app/immutable/chunks/Button-70531b93.js",
+    "imports": [
+      "_Row-5b400ca3.js",
+      "_index-4dc2d971.js"
+    ]
+  },
+  "_index-4dc2d971.js": {
+    "file": "_app/immutable/chunks/index-4dc2d971.js"
+  },
+  "src/routes/+error.svelte": {
+    "file": "_app/immutable/components/pages/_error.svelte-016e7b31.js",
+    "src": "src/routes/+error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-4dc2d971.js",
+      "_Row-5b400ca3.js",
+      "_index-c7c9934e.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_error-c88a3739.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/shitcoin-39c90e3e.png"
+    ]
+  },
+  "_Row-5b400ca3.js": {
+    "file": "_app/immutable/chunks/Row-5b400ca3.js",
+    "imports": [
+      "_index-4dc2d971.js"
+    ],
+    "css": [
+      "_app/immutable/assets/Row-60614438.css"
+    ]
+  },
+  "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.589_svelte@3.55.1_vite@4.0.0/node_modules/@sveltejs/kit/src/runtime/client/start.js": {
+    "file": "_app/immutable/start-5da34628.js",
+    "src": "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.589_svelte@3.55.1_vite@4.0.0/node_modules/@sveltejs/kit/src/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-4dc2d971.js",
+      "_index-29d28d03.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/generated/nodes/0.js",
+      ".svelte-kit/generated/nodes/1.js",
+      ".svelte-kit/generated/nodes/2.js",
+      ".svelte-kit/generated/nodes/3.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "_app/immutable/components/pages/_layout.svelte-553805d9.js",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-4dc2d971.js",
+      "_index-29d28d03.js",
+      "_Button-70531b93.js",
+      "_Row-5b400ca3.js",
+      "_Icon-10c06870.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-a79b33d6.css"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "_app/immutable/components/pages/_page.svelte-43942a0b.js",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-4dc2d971.js",
+      "_Button-70531b93.js",
+      "_Row-5b400ca3.js",
+      "_Icon-10c06870.js",
+      "_Modal-fb25ed7f.js",
+      "_index-c7c9934e.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-9caf8780.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/arrow-48fcbeb4.png",
+      "_app/immutable/assets/theater-33c6ceee.png",
+      "_app/immutable/assets/cut-out-seats-c774c558.png",
+      "_app/immutable/assets/first-row-seats-3e5fe446.png",
+      "_app/immutable/assets/bitcoin-b6c52774.png",
+      "_app/immutable/assets/char-8f2d4a6c.png",
+      "_app/immutable/assets/harold-60fe7517.png",
+      "_app/immutable/assets/jamus-e90e56e3.png",
+      "_app/immutable/assets/jones-47ef0fef.png",
+      "_app/immutable/assets/mitalik-fdd8d354.png",
+      "_app/immutable/assets/seats-350a28cc.png",
+      "_app/immutable/assets/xenia-2c41e085.png",
+      "_app/immutable/assets/b-hello-c5190745.png"
+    ]
+  },
+  "src/routes/ordinals/+page.svelte": {
+    "file": "_app/immutable/components/pages/ordinals/_page.svelte-278710df.js",
+    "src": "src/routes/ordinals/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-4dc2d971.js",
+      "_Row-5b400ca3.js",
+      "_Button-70531b93.js",
+      "_Modal-fb25ed7f.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-e490de3a.css"
+    ]
+  },
+  "_Modal-fb25ed7f.js": {
+    "file": "_app/immutable/chunks/Modal-fb25ed7f.js",
+    "imports": [
+      "_index-4dc2d971.js",
+      "_Row-5b400ca3.js",
+      "_Button-70531b93.js"
+    ]
+  }
+}
